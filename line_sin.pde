@@ -37,6 +37,4 @@ void draw () {
     angle2[i] += 0.04;
   }
   
-  //saveFrame("line_sin/####.tif");
-  
 }
