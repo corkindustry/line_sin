@@ -19,8 +19,8 @@ function setup () {
 function draw () {
   background(100);
   for (var i = 0; i < w; i++) {
-    var y1 = (sin(angle1[i]) * h/3) + h/2;
-    var y2 = (sin(angle2[i]) * h/3) + h/2;
+    var y1 = (noise(angle1[i]) * h/3) + h/2;
+    var y2 = (noise(angle2[i]) * h/3) + h/2;
     stroke(200,200,0);
     line(dotsW[i],y1,dotsW[i],100 + y2);
     stroke(0,200,200);
