@@ -1,5 +1,5 @@
-var h = window.innerHeight;
-var w = window.innerWidth;
+var h = 600;
+var w = 800;
 
 var angle = new Array(w);
 var lines = new Array(w);
