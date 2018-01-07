@@ -1,5 +1,5 @@
-var h = 600;
-var w = 800;
+var h = 1080;
+var w = 1080;
 var dotsW = new Array(w);
 var angle1 = new Array(w);
 var angle2 = new Array(w);
@@ -18,8 +18,8 @@ function setup () {
 function draw () {
   background(100);
   for (var i = 0; i < w; i++) {
-    var y1 = (sin(angle1[i]) * h/3) + h/2;
-    var y2 = (sin(angle2[i]) * h/3) + h/2;
+    var y1 = (sin(angle1[i]) * h) + h/2;
+    var y2 = (sin(angle2[i]) * h) + h/2;
     stroke(200, 200, 0);
     line(dotsW[i], y1, dotsW[i], 100 + y2);
     stroke(0, 200, 200);
